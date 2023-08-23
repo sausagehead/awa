@@ -9,5 +9,10 @@
   },
   "devDependencies": {
     "nuxt": "^3.0.0"
+  },
+  "dependencies": {
+    "sass": "^1.57.1",
+    "vue-router": "^4.2.4",
+    "vue-window-size": "^2.0.0"
   }
 }
