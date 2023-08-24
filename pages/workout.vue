@@ -39,9 +39,6 @@ export default {
       selectedItems : [],
       }
     },
-
-
-
   methods:{
     receiveText(data){
       const work = {
@@ -100,5 +97,18 @@ export default {
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+.textBox{
+  display:flex;
+  flex-direction: row;
+}
+.textBox h1{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  border: 2px solid #1A1A1A;
+  box-sizing: border-box;
 }
 </style>

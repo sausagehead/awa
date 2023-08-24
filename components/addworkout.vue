@@ -8,7 +8,6 @@
       <mybutton @click="submitPopUp" >submit</mybutton>
     </workoutpopup>
 
-
 </template>
 
 <script>
@@ -41,6 +40,23 @@ export default{
 </script>
 
 <style scoped>
+h1{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+textarea{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
 
 
 </style>
