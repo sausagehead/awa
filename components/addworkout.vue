@@ -56,7 +56,9 @@ textarea{
   align-items: center;
   margin: 20px;
 }
-
+.workoutbutton {
+  margin: 10px;
+}
 
 
 </style>

@@ -1,8 +1,10 @@
 <template>
   <div class="workout-page">
     <addworkout @submit="receiveText"  />
+    <div class="saveAndDelete-menu">
     <mybutton @click="saveText">SAVE</mybutton>
     <mybutton @click="showDeleteMenu">DELETEMENU</mybutton>
+    </div>
     <div class="delete-menu-popup" v-if="deleteMenuVisible">
       <div class="delete-menu">
         <div class="menu-item" v-for="(item,index) in workarray" :key="index">
@@ -110,5 +112,10 @@ export default {
   color: white;
   border: 2px solid #1A1A1A;
   box-sizing: border-box;
+}
+.saveAndDelete-menu{
+  display:flex;
+  justify-content: center;
+  margin: 10px;
 }
 </style>
