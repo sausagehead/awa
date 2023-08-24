@@ -18,34 +18,31 @@ export default {
 </script>
 
 <style>
-/* Reset default list styles */
-
 .navbar {
   display: flex;
-  flex-direction: row;
-  width: border-box;
-  height: 50px;
   justify-content: center;
-  align-items:center;
-  outline-color: black;
-  outline-width: 5px;
-  outline-style: solid;
+  align-items: center;
   list-style-type: none;
-  background-color: #acc1c2;
-}
-/* Style for navigation items */
-.navbar li {
-margin-left: 50px;
-  margin-right: 50px;
-}
-.navbar li a {
-  text-decoration: none;
-  color: #333; /* Text color */
-  font-weight: bold;
+  background-color: #2a2929; /* Hot pink background color */
+  padding: 0;
+  margin: 0;
+  height: 50px;
+  border-bottom: 2px solid #2a2929; /* Lighter pink border */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Change link color on hover */
+.navbar li {
+  margin: 0 20px;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: #fff; /* White text color */
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
 .navbar li a:hover {
-  color: #ff6600;
+  color: rgba(175, 208, 210, 0.89); /* Vibrant yellow on hover */
 }
 </style>

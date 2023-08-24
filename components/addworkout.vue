@@ -1,11 +1,11 @@
 <template>
   <div class="workoutbutton">
-    <button @click="openPopUp">ADD</button>
+    <mybutton @click="openPopUp">ADD</mybutton>
   </div>
     <workoutpopup v-if="isPopUpVisible" @close="closePopUp">
       <h1>NAME</h1>
       <textarea v-model="textData" @keydown.enter="submitPopUp"></textarea>
-      <button @click="submitPopUp" >submit</button>
+      <mybutton @click="submitPopUp" >submit</mybutton>
     </workoutpopup>
 
 
@@ -41,16 +41,6 @@ export default{
 </script>
 
 <style scoped>
-.workoutbutton{
-  display: flex;
-  width: 100%;
-  height: 20%;
-  justify-content: flex-start;
-  align-items: center;
-}
-.workoutbutton button{
-  width: 100px;
-  height: 100px;
-}
+
 
 </style>

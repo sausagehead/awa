@@ -3,7 +3,7 @@
   <div class="popup-content">
     <slot></slot>
     <div class="button-box">
-      <button @click="ClosePopUp">close</button>
+      <mybutton @click="ClosePopUp">close</mybutton>
     </div>
   </div>
 </div>
